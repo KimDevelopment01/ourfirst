@@ -62,12 +62,15 @@ label {
 
 .valentines-day {
 	position: relative;
-	cursor: pointer;
+    user-select: none;
+
 }
 
 .envelope {
 	position: relative;
 	filter: drop-shadow(0 0 25px rgba(0,0,0,.3));
+    user-select: none;
+
 }
 
 
@@ -81,6 +84,8 @@ label {
 		border-radius: 0 15px 0 0;
 		left: -37px;
 		top: -117px;
+    user-select: none;
+
 		
 	}
 
@@ -92,6 +97,8 @@ label {
 		height: 225px;
 		left: -90px;
 		top: 10px;
+    user-select: none;
+
 	}
 
 .heart {
@@ -116,6 +123,7 @@ label {
 		width: 180px;
 		position: absolute;
 		cursor: pointer;
+
 	}
 
 	.heart:before {
@@ -139,6 +147,8 @@ label {
 	top: 40px;
 	left: 80px;
 	z-index: 4;
+    user-select: none;
+
 	/* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
 }
 
@@ -152,6 +162,8 @@ label {
 		border-bottom: 113px solid transparent;
 		top: -113px;
 		left: -170px;
+    user-select: none;
+
 		/* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
 	}
 
@@ -166,6 +178,8 @@ label {
 		border-left: 180px solid transparent;
 		left: -170px;
 		top: -36px;
+    user-select: none;
+
 		box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 	}
 
@@ -175,6 +189,8 @@ label {
 	content: "";
 	color:red;
 	font-weight:600;
+    user-select: none;
+
 }
 .text {
 	position: absolute;
@@ -188,6 +204,7 @@ label {
 	transition: .5s;
 	line-height: 31px;
 	cursor: pointer;
+    user-select: none;
 }
 
 .first {
@@ -217,6 +234,8 @@ label {
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
+    user-select: none;
+
 }
 
 /*FLOATING HEART*/
@@ -226,6 +245,8 @@ label {
 	-webkit-transform:rotate(-45deg);
 	-moz-transform:rotate(-45deg);
 	transform:rotate(-45deg);
+    user-select: none;
+
 }
 
 	.floatingHeart:before {
@@ -238,6 +259,8 @@ label {
 		height:100%;
 		background:inherit;
 		border-radius:100%;
+    user-select: none;
+
 	}
 
 	.floatingHeart:after {
@@ -250,6 +273,8 @@ label {
 		height: 100%;
 		background: inherit;
 		border-radius: 100%;
+    user-select: none;
+
 	}
 
 	@-webkit-keyframes love{
