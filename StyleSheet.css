@@ -6,7 +6,9 @@ html, body {
 	margin: 0;
 	background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png") 
 }
-
+.photo {
+	background-image: url("COUPLE.jpg");
+}
 #card {
 	height: 500px;
 	width: 800px;
