@@ -6,10 +6,7 @@ html, body {
 	margin: 0;
 	background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png") 
 }
-.photo {
-	background-image: url("COUPLE.jpg");
-	width:300px;
-}
+
 #card {
 	height: 500px;
 	width: 800px;
@@ -57,7 +54,7 @@ label {
 	}
 
 .photo {
- background-image: url('couple.jpg');
+ 
 	margin: 20px 0 0 70px;
 	background-size: cover;
 	width: 100%;
@@ -174,7 +171,7 @@ label {
 	}
 
 .tap {
-	top:390px;
+	top:275px;
 	position: absolute;
 	content: "";
 	color:red;
