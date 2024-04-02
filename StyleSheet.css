@@ -100,11 +100,10 @@ label {
 	background-color: #e01911;
 	display: inline-block;
 	height: 180px;
-	top: 5px;
+	top: -10px;
 	left: 0;
 	transform: rotate(-45deg);
 	width: 180px;
-	filter: drop-shadow(0 -10px 25px rgba(0,0,0,.3));
 	transition: .5s;
 	cursor:pointer;
 }
@@ -171,7 +170,7 @@ label {
 	}
 
 .tap {
-	top:500px;
+	top:100px;
 	position: absolute;
 	content: "";
 	color:red;
