@@ -8,14 +8,15 @@ html, body {
 }
 .photo {
 	background-image: url("COUPLE.jpg");
+	width
 }
 #card {
 	height: 500px;
 	width: 800px;
 	margin: 5em auto;
 	position: fixed;
-	top: 325px;
-	left: 10%;
+	top: 455px;
+	left: 9%;
 	display: flex;
 	visibility: hidden;
 }
