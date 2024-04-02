@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css?family=Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
 
 html, body {
 	height: 100%;
@@ -99,7 +99,8 @@ label {
 	background-color: #e01911;
 	display: inline-block;
 	height: 180px;
-	top: -10px;
+	/* top: -10px; */
+    margin-top: 50px;;
 	left: 0;
 	transform: rotate(-45deg);
 	width: 180px;
@@ -138,7 +139,7 @@ label {
 	top: 40px;
 	left: 80px;
 	z-index: 4;
-	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	/* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
 }
 
 	.front:before {
@@ -151,7 +152,7 @@ label {
 		border-bottom: 113px solid transparent;
 		top: -113px;
 		left: -170px;
-		box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+		/* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
 	}
 
 
@@ -169,7 +170,7 @@ label {
 	}
 
 .tap {
-	top:900px;
+	top:60%;
 	position: absolute;
 	content: "";
 	color:red;
@@ -182,7 +183,7 @@ label {
 	text-align: center;
 	color: white;
 	z-index: 2;
-	top: -25px;
+	top: 40%;
 	left: -35px;
 	transition: .5s;
 	line-height: 31px;
