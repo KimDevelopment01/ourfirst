@@ -1,0 +1,267 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Sacramento');
+
+html, body {
+	height: 100%;
+	overflow-y: hidden;
+	margin: 0;
+	background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png") 
+}
+
+#card {
+	height: 500px;
+	width: 800px;
+	margin: 5em auto;
+	position: fixed;
+	top: -15px;
+	left: 25%;
+	display: flex;
+	visibility: hidden;
+}
+.audio {
+	position: absolute;
+	content: "";
+	margin-top:700px;
+}
+	#card h2 {
+		font-size: 3em;
+		margin: 0;
+		color: #78caca;
+		text-align: center;
+	}
+label {
+	color: #78caca;
+	font-weight:600;
+}
+	#card p {
+		font-size: 22px;
+		text-align: justify;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+
+.side {
+	background: #eee;
+	height: 450px;
+	width: 400px;
+	padding: 10px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	background-image: url("https://media.istockphoto.com/id/1301915015/vector/love-letter-blank-template-with-magnolia-flower-pattern-background-useful-for-wedding.jpg?s=612x612&w=0&k=20&c=3C0ybSk2QNRWQw7mqLQHCT_vAp_51KHUovjBy5m1J-s=");
+}
+
+	.side .one {
+		width: 320px;
+	}
+
+.photo {
+	HEIGHT: 370PX;
+	margin: 20px 0 0 70px;
+}
+
+.valentines-day {
+	position: relative;
+	cursor: pointer;
+}
+
+.envelope {
+	position: relative;
+	filter: drop-shadow(0 0 25px rgba(0,0,0,.3));
+}
+
+
+	.envelope:before {
+		content: "";
+		position: absolute;
+		width: 254px;
+		height: 254px;
+		background-color: #ff9494;
+		transform: rotate(-45deg);
+		border-radius: 0 15px 0 0;
+		left: -37px;
+		top: -117px;
+		box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	}
+
+	.envelope:after {
+		content: "";
+		position: absolute;
+		background-color: #ff9494;
+		width: 360px;
+		height: 225px;
+		left: -90px;
+		top: 10px;
+		box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	}
+
+.heart {
+	position: relative;
+	background-color: #e01911;
+	display: inline-block;
+	height: 180px;
+	top: 5px;
+	left: 0;
+	transform: rotate(-45deg);
+	width: 180px;
+	filter: drop-shadow(0 -10px 25px rgba(0,0,0,.3));
+	transition: .5s;
+	cursor:pointer;
+}
+
+	.heart:before, .heart:after {
+		content: "";
+		background-color: #e01911;
+		border-radius: 50%;
+		height: 180px;
+		width: 180px;
+		position: absolute;
+		cursor: pointer;
+	}
+
+	.heart:before {
+		top: -100px;
+		left: 0;
+	}
+
+	.heart:after {
+		left: 100px;
+		top: 0;
+	}
+
+
+.front {
+	position: absolute;
+	height: 0;
+	width: 0;
+	border-right: 190px solid #fbd2d2;
+	border-top: 113px solid transparent;
+	border-bottom: 113px solid transparent;
+	top: 40px;
+	left: 80px;
+	z-index: 4;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+	.front:before {
+		content: "";
+		position: absolute;
+		width: 0;
+		height: 0;
+		border-left: 190px solid #fbd2d2;
+		border-top: 113px solid transparent;
+		border-bottom: 113px solid transparent;
+		top: -113px;
+		left: -170px;
+		box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	}
+
+
+	.front:after {
+		width: 0;
+		height: 0;
+		position: absolute;
+		content: "";
+		border-bottom: 150px solid #fce7e9;
+		border-right: 180px solid transparent;
+		border-left: 180px solid transparent;
+		left: -170px;
+		top: -36px;
+		box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	}
+
+.tap {
+	top:680px;
+	position: absolute;
+	content: "";
+	color:red;
+	font-weight:600;
+}
+.text {
+	position: absolute;
+	font-family: arial;
+	letter-spacing: 19px;
+	text-align: center;
+	color: white;
+	z-index: 2;
+	top: -25px;
+	left: -35px;
+	transition: .5s;
+	line-height: 31px;
+	cursor: pointer;
+}
+
+.first {
+	letter-spacing: 0 !important;
+	margin: 0 !important;
+	font-weight: 600;
+	margin-right: 25px !important;
+	font-size: 25px;
+	cursor: pointer;
+}
+.valentines-day:hover .heart {
+	transform: translateY(-50px) rotate(-45deg);
+	cursor: pointer;
+}
+.valentines-day:hover .text {
+	transform: translateY(-50px);
+	cursor: pointer;
+}
+
+.bg_heart {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+/*FLOATING HEART*/
+.floatingHeart{
+	position: absolute;
+	top:-50%;
+	-webkit-transform:rotate(-45deg);
+	-moz-transform:rotate(-45deg);
+	transform:rotate(-45deg);
+}
+
+	.floatingHeart:before {
+		position: absolute;
+		top: -50%;
+		left:0;
+		display:block;
+		content:"";
+		width:100%;
+		height:100%;
+		background:inherit;
+		border-radius:100%;
+	}
+
+	.floatingHeart:after {
+		position: absolute;
+		top: 0%;
+		right:-50%;
+		display: block;
+		content: "";
+		width: 100%;
+		height: 100%;
+		background: inherit;
+		border-radius: 100%;
+	}
+
+	@-webkit-keyframes love{
+		0%{top:110%}
+	}
+@-moz-keyframes love {
+	0% {top: 110%}
+}
+@-ms-keyframes love {
+	0% {
+		top: 110%
+	}
+}
+@keyframes love{
+	0%{top:110%}
+}
