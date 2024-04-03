@@ -16,7 +16,8 @@
             });
         });
         $('.tap').hide();
-        $('.audio').hide();
+         var audio = document.getElementById('audio');
+        audio.play();
     });
 
     // FLOATING HEART
