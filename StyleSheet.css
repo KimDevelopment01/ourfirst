@@ -17,10 +17,12 @@ html, body {
 	display: flex;
 	visibility: hidden;
 }
-.audio {
-	position: absolute;
-	content: "";
-	margin-top:700px;
+.audio{
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    margin-top: 40px!important;
+    transform: translate(-50%, -50%);
 }
 	#card h2 {
 		font-size: 3em;
