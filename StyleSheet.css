@@ -20,9 +20,10 @@ html, body {
 .audio{
     position: absolute;
     top: 50%; 
-    left: 50%; 
+    left: 45%; 
     margin-top: 40px!important;
     transform: translate(-50%, -50%);
+	  z-index: 1; 
 }
 	#card h2 {
 		font-size: 3em;
