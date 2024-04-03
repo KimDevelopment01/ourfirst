@@ -17,7 +17,7 @@ html, body {
 	display: flex;
 	visibility: hidden;
 }
-.audio{
+audio{
     position: absolute;
     top: 50%; 
     left: 50%; 
