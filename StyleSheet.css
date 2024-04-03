@@ -56,7 +56,9 @@ label {
 .photo {
  	background-image: url("img/COUPLE.jpg");
 	    margin: 20px 0 0 43px;
-    background-size: cover;
+   height: 90%;
+    width: 80%;
+    background-size: 100%
     
 }
 
